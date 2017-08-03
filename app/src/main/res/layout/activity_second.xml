@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="150px"/>
+    <EditText
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@mipmap/ic_launcher"
+        android:backgroundTint="@color/color_tint" />
+    <EditText
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@mipmap/ic_launcher"
+        android:backgroundTint="@color/color_tint" />
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@mipmap/ic_launcher"
+        android:backgroundTint="@color/color_tint"
+        android:clickable="true"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@mipmap/ic_launcher"
+        android:tint="@color/color_tint"
+        android:clickable="true"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/selector"
+        android:tint="@color/color_tint"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@mipmap/ic_launcher"
+        android:backgroundTint="@color/color_tint" />
+    <ImageButton
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@mipmap/ic_launcher"
+        android:tint="@color/color_tint" />
+</LinearLayout>
